@@ -14,6 +14,13 @@
   </h1>
   <p>EJS Welcome to <%= title %>
   </p>
+  <p>
+    <%= locals.age %>
+  </p>
+  <hr>
+  <%- include('widgets/user-info.ejs', { }) %>
+    <hr>
+    <%- include('widgets/blog-list.ejs') %>
 </body>
 
 </html>

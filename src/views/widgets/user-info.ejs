@@ -1,0 +1,8 @@
+<div>
+    <!-- 子组件可以访问父组件才有的变量 -->
+    <% if(isMe) { %>
+        <a href="#">提到我的 <%= title %></a>
+    <% } else { %>
+        <button>关注 <%= title %></button>
+    <% } %>
+</div>

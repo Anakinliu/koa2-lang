@@ -4,12 +4,13 @@
 
 涉及到的技术：
 
-- 基于koa2版本1.1.17框架
-- 数据库mysql
-- 缓存数据库redis
-- 登陆session
-- 前端页面使用后端的模版引擎ejs
-- 单元测试jest
+- `nodejs 8.x`及以上版本,这些版本原生支持async await写法.
+- `koa2`版本1.1.17
+- `mysql`数据库
+- `redis`缓存数据库
+- `session`用了登陆没有使用jwt
+- `ejs`后端模版引擎渲染
+- `jest`单元测试
 
 ## 补充
 
